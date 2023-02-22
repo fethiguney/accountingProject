@@ -8,7 +8,7 @@ import utilities.Driver;
 public class PastelBulutPages {
 
     @FindBy (xpath = "//div[@class='mhb-item mhb-button mhb-custom-gtY6im-7M']/a")
-    public WebElement girisYapınButton;
+    public WebElement girisYapinButton;
 
     @FindBy (xpath = "(//input[@class='dx-texteditor-input'])[1]")
     public WebElement epostaGiris;
@@ -16,7 +16,7 @@ public class PastelBulutPages {
     @FindBy (xpath = "(//input[@class='dx-texteditor-input'])[2]")
     public WebElement parolaGiris;
 
-    @FindBy (xpath = "//*[text()='GİRİŞ']")
+    @FindBy (xpath = "(//div[@class='dx-button-content'])[1]")
     public WebElement girisButton;
 
     @FindBy (xpath = "//*[@class='dx-template-wrapper dx-item-content dx-list-item-content']")

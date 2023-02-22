@@ -20,7 +20,7 @@ public class PastelBulutStepDefinitons {
     }
     @When("kullanici giris yapin butonuna tiklar")
     public void kullanici_giris_yapin_butonuna_tiklar() {
-        pastelBulutPages.girisYapınButton.click();
+        pastelBulutPages.girisYapinButton.click();
         windowList=new ArrayList<>(Driver.getDriver().getWindowHandles());
         Driver.getDriver().switchTo().window(windowList.get(1));
 
