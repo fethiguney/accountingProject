@@ -34,7 +34,7 @@ public class PastelBulutStepDefinitons {
     public void kullanici_gecerli_parola_girer_ve_giris_butonuna_tiklar() {
         pastelBulutPages.parolaGiris.sendKeys(ConfigReader.getProperty("password"));
         ReusableMethods.waitFor(1);
-        ReusableMethods.jsClick(pastelBulutPages.girisButton);
+        pastelBulutPages.girisButton.click();
 
 
     }
