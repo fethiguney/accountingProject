@@ -21,6 +21,11 @@ public class Driver {
 
         if (driver==null) {
             switch (ConfigReader.getProperty("browser")){
+                case "chrome":
+                ChromeOptions options=new ChromeOptions();
+                options.addArguments("--remote-allow-origins=*");
+                driver = new ChromeDriver(options);
+                break;
                 case "edge"    :
                     driver=new EdgeDriver();
                     break;
@@ -33,8 +38,6 @@ public class Driver {
                 case "headless-chrome":
                     driver=new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
-                default:
-                    driver=new ChromeDriver();
 
             }
             driver.manage().window().maximize();
