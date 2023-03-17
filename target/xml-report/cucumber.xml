@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.802">
-    <testcase classname="Kullanıcı basarili bir sekilde login olabilmeli" name="Kayitli kullanici sisteme basarili bir sekilde login olabilmeli" time="13.505">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.307">
+    <testcase classname="Kullanıcı basarili bir sekilde login olabilmeli" name="Kayitli kullanici sisteme basarili bir sekilde login olabilmeli" time="18.945">
         <system-out>
             <![CDATA[Given kullanici pastelbulut url adresine gider..............................passed
 When kullanici giris yapin butonuna tiklar..................................passed
